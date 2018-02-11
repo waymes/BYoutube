@@ -1,0 +1,63 @@
+html, #root{
+    background: rgb(32,32,32);
+}
+body *{
+    color: #ddd;
+}
+
+.video-list ul{
+    width: 100%;
+    padding-left: 0;
+}
+
+.video-list-item{
+    cursor: pointer;
+    background: inherit;
+    list-style-type: none;
+    margin-top: 1rem;
+}
+
+.search-bar input{
+    margin: 1rem;
+    width: 90%;
+    max-width: 600px;
+    background: #000;
+    border: 1px solid #333;
+    border-radius: 1px;
+    padding-left: 0.5rem;
+}
+
+.video-detail iframe{
+    background: #000;
+}
+
+.image-holder{
+    width: 45%;
+    padding-top: 26%;
+    position: relative;
+}
+.image-inner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.video-list-title{
+    width: 55%;
+    padding: 0 0.5rem;
+}
+
+.video-detail-info{
+    margin: 1rem 0;
+}
+.video-detail-info-title{
+    margin-bottom: 1rem;
+}
+
+.color999 {
+    color: #999;
+}
